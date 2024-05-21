@@ -60,7 +60,7 @@ export default function LayoutFrontHeader({ className, headerClassName }: Layout
             <Image src={getLogoImage()} alt="Logo image" width={40} height={40} priority />
           </Link>
           <Link href={`/`} className="font-semibold">
-            tickle
+            TicketMarket
           </Link>
           <Badge>MVP</Badge>
         </div>
