@@ -59,7 +59,9 @@ export default function LayoutFrontHeader({ className, headerClassName }: Layout
           <Link href={`/`} className={cn("w-10 h-10", isScrolled && "w-8 h-8")}>
             <Image src={getLogoImage()} alt="Logo image" width={40} height={40} priority />
           </Link>
-          <Link href={`/`}>TITLE</Link>
+          <Link href={`/`} className="font-semibold">
+            tickle
+          </Link>
           <Badge>MVP</Badge>
         </div>
         <div className="flex items-center gap-1">
