@@ -8,6 +8,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { cn } from "@/lib/utils";
 
 import Layout from "@/layouts";
+import { EdgeStoreProvider } from "@/lib/edgestore";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -28,7 +29,9 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body className={cn("flex flex-col min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
-          <Layout>{children}</Layout>
+          <EdgeStoreProvider>
+            <Layout>{children}</Layout>
+          </EdgeStoreProvider>
         </body>
       </html>
     </ClerkProvider>

@@ -23,7 +23,7 @@ export default async function LayoutFrontFooter({ className, footerClassName }: 
         <div className="flex items-center justify-between flex-col md:flex-row gap-4">
           <div className="flex-1 text-center md:text-left">
             <Link href={`/`} variant="ghost" className="tracking-wide font-semibold">
-              TITLE
+              tickle
             </Link>
           </div>
           <div className="flex-1 flex flex-col gap-4">
@@ -99,7 +99,7 @@ export default async function LayoutFrontFooter({ className, footerClassName }: 
           </Link>
         </div> */}
         <div className="py-4 text-center md:text-left">
-          <span className="text-xs text-foreground/80">© {new Date().getFullYear()} TITLE. All rights reserved.</span>
+          <span className="text-xs text-foreground/80">© {new Date().getFullYear()} tickle. All rights reserved.</span>
         </div>
       </footer>
     </div>

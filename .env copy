@@ -1,5 +1,5 @@
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bGFzdGluZy1tZWVya2F0LTEwLmNsZXJrLmFjY291bnRzLmRldiQ
-CLERK_SECRET_KEY=sk_test_xxt7WP6JdEaN56rlAcqaZV6RAS3Vk67gZQQaRrbQZ6
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZGVhci1tb2NjYXNpbi02MS5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_UnEF6OwZmuOGJB5K7ahV6V0W0FA1MctdDPZVBJMZGh
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/account/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/account/sign-up
 POSTGRES_URL="postgres://default:VvHB0WfLM2QE@ep-plain-voice-a1wemepq-pooler.ap-southeast-1.aws.neon.tech:5432/verceldb?sslmode=require"
